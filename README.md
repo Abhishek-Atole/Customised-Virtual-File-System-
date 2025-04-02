@@ -1,23 +1,27 @@
-# File Packer Unpacker with Encryption
+# Customised Virtual File System
 
 ## Overview
-This project allows **packing and unpacking multiple files** into a single archive while storing metadata. It includes **encryption** for enhanced security.
+This project provides all functionality similar to the Linux File System, implementing necessary system calls and commands via a **customised shell**. It enables system-level operations across different OS platforms. The system implements core Linux file operations, allowing users to perform file management efficiently. By incorporating file system structures such as Incore Inode Table and File Descriptor Table, it ensures seamless storage handling. 
+
+The project provides an **interactive shell** where users can execute commands similar to Linux, making it ideal for educational and experimental purposes in system programming. 
 
 ## Features
-- **Pack & Unpack**: Combines multiple files into one and extracts them later.
-- **Metadata Preservation**: Retains original file details.
-- **Encryption & Decryption**: Ensures data security during storage and transfer.
-- **Graphical User Interface** for easy interaction.
+- Implements essential file system structures: **Incore Inode Table, File Table, UAREA, User File Descriptor Table**.
+- Customised shell for interacting with the file system.
+- Supports core **Linux-like** operations for file management.
+- Allows file operations such as **creation, deletion, reading, writing, and permissions management**.
+- Enables a Linux-like environment on non-Linux operating systems.
 
 ## Technologies Used
-- **Programming Language:** Java
-- **GUI Framework:** Java Swing
+- **Programming Language:** C
+- **Operating System:** Linux
 
 ## Installation & Usage
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/file-packer.git
-cd file-packer
-# Compile and run
-javac FilePacker.java
-java FilePacker
+git clone https://github.com/yourusername/custom-vfs.git
+cd custom-vfs
+# Compile the program
+gcc vfs.c -o vfs
+# Run the shell
+./vfs
