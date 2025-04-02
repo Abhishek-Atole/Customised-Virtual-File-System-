@@ -1,27 +1,49 @@
-# Customised Virtual File System
+# Customized Virtual File System
 
-## Overview
-This project provides all functionality similar to the Linux File System, implementing necessary system calls and commands via a **customised shell**. It enables system-level operations across different OS platforms. The system implements core Linux file operations, allowing users to perform file management efficiently. By incorporating file system structures such as Incore Inode Table and File Descriptor Table, it ensures seamless storage handling. 
+## Platform Required
+- Windows Platform Or Linux Distributions.
 
-The project provides an **interactive shell** where users can execute commands similar to Linux, making it ideal for educational and experimental purposes in system programming. 
+## Architectural Requirement
+- INTEL 32 Bit Processor Or Higher.
 
-## Features
-- Implements essential file system structures: **Incore Inode Table, File Table, UAREA, User File Descriptor Table**.
-- Customised shell for interacting with the file system.
-- Supports core **Linux-like** operations for file management.
-- Allows file operations such as **creation, deletion, reading, writing, and permissions management**.
-- Enables a Linux-like environment on non-Linux operating systems.
+## User Interface
+- Command Line Interface.
 
-## Technologies Used
-- **Programming Language:** C
-- **Operating System:** Linux
+## Technology Used
+- System Programming Using C.
 
-## Installation & Usage
+## About Customized Virtual File System
+
+The Customized Virtual File System is a project that emulates all the data structures used by an operating system to manage file system-oriented tasks. It operates in a virtual environment by maintaining all records in primary storage (RAM).
+
+### Implemented Data Structures
+1. **FT (File Table):** Emulation of the file table.
+2. **UAREA:** Emulation of the user area.
+3. **UFDT (User File Descriptor Table):** Emulation of the user file descriptor table.
+4. **SB (Super Block):** Emulation of the super block.
+5. **DILB (Data Inode List Block):** Emulation of the data inode list block.
+6. **DB (Data Block):** Emulation of the data block.
+
+### Implemented System Calls and Commands
+- Open
+- Close
+- Read
+- Write
+- Lseek
+- Create
+- RM (Remove)
+- LS (List)
+- Stat
+- Fstat
+
+### Project Overview
+This project provides a comprehensive implementation of the necessary system calls and commands for file subsystem operations. The functionalities are built using custom data structures inspired by algorithms used in the UNIX operating system.
+
+### How to Use
+1. Clone the repository.
+2. Compile the source code using a C compiler compatible with your platform.
+3. Run the executable in the command line.
+
+### Example Usage
 ```bash
-# Clone this repository
-git clone https://github.com/yourusername/custom-vfs.git
-cd custom-vfs
-# Compile the program
-gcc vfs.c -o vfs
-# Run the shell
-./vfs
+$ ./virtual_file_system
