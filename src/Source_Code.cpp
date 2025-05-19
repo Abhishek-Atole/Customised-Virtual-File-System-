@@ -99,7 +99,7 @@ int main()
  
 	while(1) 
 	{ 
-		printf("\n\nSatish Mungade CVFS :>");
+		printf("\n\nAbhishek Atole CVFS :>");
 		fgets(str,80,stdin);
 		fflush(stdin); 
 		iCount = sscanf(str,"%s %s %s %s",command[0],command[1],command[2],command[3]); 
