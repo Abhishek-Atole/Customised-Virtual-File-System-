@@ -55,7 +55,6 @@ struct filetable
 typedef struct filetable FILETABLE;
 typedef struct filetable *PFILETABLE; 
  
-
  struct ufdt 
 { 
 	PFILETABLE ptrfiletable; 
