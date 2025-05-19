@@ -1,6 +1,6 @@
 # Customised Virtual File System (CVFS)
 
-![CVFS Banner](images/cvfs-banner.png)
+![CVFS Final_Run_Exe](images/Final_Run_Exe.png)
 
 ## Overview
 
