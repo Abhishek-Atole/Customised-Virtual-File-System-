@@ -86,7 +86,7 @@ Once started, the shell accepts the following commands:
 
 ## Example Session
 
-![CVFS Example Session](images/cvfs-session.png)
+![CVFS Example Session](docs/Final_Run_Exe.png)
 
 ```sh
 Abhishek Atole CVFS :> creat test 3
