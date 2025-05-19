@@ -113,7 +113,21 @@ Thank-you for using My Virtual File System
 ## Documentation
 
 - [Project Documentation PDF](docs/CustomisedVirtualFileSystem_Project_Documation.pdf)
-- [Architecture Diagrams](docs/)
+- [Architecture Diagrams Folder](docs/)
+
+### Visuals
+
+- **Final Run Executable Screenshot:**  
+  ![CVFS Final Run Exe](docs/Final_Run_Exe.png)
+
+- **Hard Disk Info Diagram:**  
+  ![Hard Disk Info](docs/HardDiskInfo.png)
+
+- **Inode Information Diagram:**  
+  ![Inode Info](docs/Inode_Info.png)
+
+- **RAM Processing Diagram:**  
+  ![RAM Processing](docs/Ram_Process.png)
 
 ---
 
