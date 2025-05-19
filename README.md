@@ -1,5 +1,7 @@
 # Customised Virtual File System (CVFS)
 
+![CVFS Banner](images/cvfs-banner.png)
+
 ## Overview
 
 The **Customised Virtual File System (CVFS)** is a C++-based, in-memory file system emulator that replicates core UNIX-like file system behaviors. It is designed for educational and research purposes, providing a hands-on understanding of file system internals such as inode management, file operations, and user-space interaction.
@@ -18,6 +20,8 @@ The **Customised Virtual File System (CVFS)** is a C++-based, in-memory file sys
 ---
 
 ## Architecture
+
+![CVFS Architecture](images/cvfs-architecture.png)
 
 - **Superblock:** Tracks total and free inodes.
 - **Inode Table:** Stores metadata for each file (name, size, type, permissions, etc.).
@@ -81,6 +85,8 @@ Once started, the shell accepts the following commands:
 ---
 
 ## Example Session
+
+![CVFS Example Session](images/cvfs-session.png)
 
 ```sh
 Abhishek Atole CVFS :> creat test 3
